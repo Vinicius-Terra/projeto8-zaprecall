@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+body {
+
+    background-color: #FB6B6B;
+    font-family: 'Recursive', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+    
+img.content{
+    width: 52px;
+    height: 60px;
+
+}
+
+h1.content{
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+h3 {
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+ion-icon {
+    font-size: 32px;
+}
+
+.flex{
+    display: flex;
+    margin: 48px 0 59px 0;
+}
+
+.centralizada.content{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 46px;
+
+}
+
+.seta{
+    width: 30px;
+    height: 20px;
+    margin-top: 80px;
+
+}
+
+.Card {
+
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px 0 15px;
+    margin-bottom: 25px;
+
+}
+
+.question, .answer  {
+
+    width: 299px;
+    height: 131px;
+    background: #FFFFD5;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 15px 6px 15px;
+    margin-bottom: 25px;
+
+}
+
+.question h2 {
+
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.answer  {
+
+    flex-direction: column;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.naoLembrei, .quaseNLembrei, .zap {
+    width: 85px;
+    height: 37px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.naoLembrei {
+    background-color: #FF3030;
+}
+
+.quaseNLembrei {
+    background-color: #FF922E;
+    flex-direction: column;
+}
+
+.zap {
+    background-color: #2FBE34;
+}
+
